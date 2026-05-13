@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useSocket, ChatMessage, TypingUser } from "@/hooks/use-socket";
-import { useWorkspaceId } from "@/hooks/use-workspace-id";
+import  useWorkspaceId  from "@/hooks/use-workspace-id";
 import axios from "axios";
 
 // ─── Tipos locales ─────────────────────────────────────────────────────────────
